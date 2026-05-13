@@ -2,7 +2,11 @@
 """
 Setup verification script
 
+设置验证脚本
+
 Run this after installing dependencies to verify your setup is correct.
+
+安装依赖项后运行此脚本以验证你的设置是否正确。
 """
 
 import sys
@@ -10,7 +14,10 @@ import os
 
 
 def check_python_version():
-    """Check Python version is 3.10+"""
+    """Check Python version is 3.10+
+    
+    检查 Python 版本是否为 3.10+
+    """
     version = sys.version_info
     if version.major < 3 or (version.major == 3 and version.minor < 10):
         print("❌ Python 3.10+ required")
@@ -21,7 +28,10 @@ def check_python_version():
 
 
 def check_dependencies():
-    """Check if required packages are installed"""
+    """Check if required packages are installed
+    
+    检查是否安装了所需的包
+    """
     try:
         import llama_cpp
         print("✅ llama-cpp-python installed")
@@ -33,11 +43,15 @@ def check_dependencies():
 
 
 def check_model_directory():
-    """Check if models directory exists"""
+    """Check if models directory exists
+    
+    检查 models 目录是否存在
+    """
     if os.path.isdir("models"):
         print("✅ models/ directory exists")
         
         # Check for GGUF files
+        # 检查 GGUF 文件
         files = [f for f in os.listdir("models") if f.endswith(".gguf")]
         if files:
             print(f"✅ Found {len(files)} GGUF model(s):")
@@ -54,7 +68,10 @@ def check_model_directory():
 
 
 def check_structure():
-    """Check repository structure"""
+    """Check repository structure
+    
+    检查仓库结构
+    """
     required_dirs = ["shared", "agent", "lessons"]
     all_exist = True
     
@@ -69,7 +86,10 @@ def check_structure():
 
 
 def main():
-    """Run all checks"""
+    """Run all checks
+    
+    运行所有检查
+    """
     print("="*50)
     print("AI Agents from Scratch - Setup Verification")
     print("="*50)
