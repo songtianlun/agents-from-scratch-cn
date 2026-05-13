@@ -349,6 +349,8 @@ The graph structure must be validated before execution. Circular dependencies, m
 3. Compare execution order with and without dependencies
 4. Experiment with parallel vs sequential execution
 
+---
+
 1. 创建具有不同依赖结构的图
 2. 尝试创建循环依赖，看看验证是否能捕获它
 3. 比较有和没有依赖的执行顺序

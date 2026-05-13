@@ -470,6 +470,8 @@ You don't need 1000 test cases. Start with 5-10 golden cases per capability. Add
 3. Add an edge case (empty input, very long input, unicode)
 4. Create golden dataset for planning (Lesson 08)
 
+---
+
 1. 添加一个目前失败的新黄金用例，然后修复提示词
 2. 有意破坏一个提示词并验证评估是否能捕获回归问题
 3. 添加边缘情况（空输入、非常长的输入、Unicode）

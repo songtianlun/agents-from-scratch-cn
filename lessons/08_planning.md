@@ -342,6 +342,8 @@ For now, execution is simple - just iterate through steps. Later lessons will ad
 3. Compare plans for the same goal across multiple runs
 4. Try to validate plans for completeness
 
+---
+
 1. 为不同类型的目标生成计划
 2. 在执行前手动修改计划
 3. 比较多次运行中相同目标的计划

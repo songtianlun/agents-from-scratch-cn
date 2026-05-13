@@ -379,6 +379,8 @@ You keep responses under 100 words unless asked to elaborate.
 3. Create a system prompt that makes responses highly detailed
 4. Experiment with conflicting instructions (what wins?)
 
+---
+
 1. 尝试不同的系统提示词并观察行为变化
 2. 创建一个使响应极其简洁的系统提示词
 3. 创建一个使响应非常详细的系统提示词

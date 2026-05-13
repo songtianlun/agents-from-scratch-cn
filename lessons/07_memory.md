@@ -307,6 +307,8 @@ Memories are loaded into the prompt context. The model doesn't have direct acces
 3. Manually inspect `agent.memory.get_all()` to see stored data
 4. Modify the memory format and see how it affects behavior
 
+---
+
 1. 保存多个事实并查看它们如何累积
 2. 尝试询问不在记忆中的事物
 3. 手动检查 `agent.memory.get_all()` 以查看存储的数据

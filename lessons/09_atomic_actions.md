@@ -320,6 +320,8 @@ Atomic actions are building blocks. Complex workflows are built from many simple
 3. Try to validate atomic actions before execution
 4. Experiment with different input parameter structures
 
+---
+
 1. 将不同类型的计划步骤转换为原子动作
 2. 比较类似步骤的原子动作
 3. 尝试在执行前验证原子动作

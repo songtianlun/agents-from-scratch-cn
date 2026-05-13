@@ -438,6 +438,8 @@ But start with a file.
 3. Compare latency between different prompt lengths
 4. Find a failing span in the logs and debug what went wrong
 
+---
+
 1. 向智能体循环添加遥测并追踪完整的多步骤交互
 2. 计算 20 次结构化输出调用中 JSON 解析的成功率
 3. 比较不同提示词长度之间的延迟

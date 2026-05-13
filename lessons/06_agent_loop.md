@@ -335,6 +335,8 @@ This loop is intentionally simple. Complex reasoning can come later - first, est
 3. Add state variables beyond step count
 4. Experiment with different termination conditions
 
+---
+
 1. 修改可用行动，看看循环如何适应
 2. 更改 `max_steps` 并观察它如何影响行为
 3. 添加步骤计数之外的状态变量

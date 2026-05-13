@@ -286,6 +286,8 @@ Always validate that the decision is actually in your choices list. The model mi
 3. Add a "none_of_the_above" choice and see when it's selected
 4. Compare decisions with temperature 0.0 vs 0.5
 
+---
+
 1. 创建一个有 5 个以上选择的决策，并测试不同的输入
 2. 尝试模糊的输入，看看模型选择哪个选项
 3. 添加一个"none_of_the_above"（以上都不是）选项，看看它何时被选中

@@ -132,6 +132,8 @@ print(response)
 5. Tokens are converted back to text
 6. Text is returned to you
 
+---
+
 1. 你的文本被转换为词元
 2. 词元被发送给模型
 3. 模型预测下一个词元
@@ -200,6 +202,8 @@ That's all this is. Everything else we build (agents, tools, memory) is built on
 1. Try different prompts and observe the responses
 2. Change the `temperature` in `shared/llm.py` (0.0 = deterministic, 1.0 = creative)
 3. Use `max_tokens` to control response length
+
+---
 
 1. 尝试不同的提示词并观察响应
 2. 修改 `shared/llm.py` 中的 `temperature`（0.0 = 确定性，1.0 = 创造性）

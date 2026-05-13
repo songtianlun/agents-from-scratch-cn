@@ -304,6 +304,8 @@ Using the same structured JSON pattern from Lessons 03 and 04 makes tool calls r
 3. Modify the tool interface and see how the model adapts
 4. Create tools with different parameter types (strings, numbers, booleans)
 
+---
+
 1. 添加一个新工具（例如"weather"或"search"）并测试它
 2. 尝试无效的工具调用，看看验证如何处理它们
 3. 修改工具接口，看看模型如何适应
